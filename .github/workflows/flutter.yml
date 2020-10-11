@@ -2,9 +2,10 @@ name: Flutter
 
 on:
   push:
-    branches: [ master ]
+    branches: [ experimental ]
   pull_request:
-    branches: [ master ]
+    branches: [ experimental ]
+  workflow_dispatch:
 
 jobs:
   build:
